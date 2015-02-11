@@ -1,0 +1,88 @@
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-size: 1.8rem;
+	line-height: 160%;
+}
+
+.slides {
+	z-index: 50
+}
+
+.slide {
+	min-height: 60vh;
+}
+
+.yellow {
+	background: #FFE51F;
+}
+
+.white {
+	background: #000;
+}
+
+.slide .content {
+	width: 80%;
+	padding: 5vh 0;
+	margin: 0 auto;
+
+}
+
+.slide .content .floated-container {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+.slide .content h1 {
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	color: #0E1131;
+}
+
+.intro-content {
+	padding-top: 10px;
+	font-size: 1em;
+	color:#0E1131;
+}
+
+.sub-header {
+	text-align: center;
+	font-style: normal;
+	font-size: 4em;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+}
+
+.inner {
+	width: 60%;
+	margin: 0 auto;
+}
+
+a.tickets {
+	display: inline-block;
+	padding: 20px;
+	background: #FFE51F;
+	color: #000;
+	border: none;
+	border-radius: 4px;
+}
+
+.tickets {
+	text-align: center;
+	padding: 1rem 0;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-width : 667px) { 
+	.inner { 
+		width: 100%;
+	}
+	.slides { 
+		min-height: 0vh;
+	}
+}
